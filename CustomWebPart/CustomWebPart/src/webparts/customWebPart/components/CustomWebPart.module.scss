@@ -1,0 +1,15 @@
+.appShell {
+  display: flex;
+  min-height: 800px; /* Force some height for workbench */
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: -0.5rem; /* neutralize SPFx workbench padding */
+}
+
+.mainContent {
+  flex: 1;
+  padding: 40px;
+  background-color: #fcfcfd;
+  min-width: 0; 
+  min-height: 100%;
+}

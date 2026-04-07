@@ -1,0 +1,25 @@
+.container { display: flex; flex-direction: column; gap: 24px; }
+
+.header {
+  h1 { font-size: 28px; font-weight: 700; color: #111827; margin: 0 0 8px 0; }
+  p { font-size: 15px; color: #6b7280; margin: 0; }
+}
+
+.listCard { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 12px 24px; }
+
+.logItem {
+  display: flex; align-items: center; gap: 16px; padding: 24px 0;
+  &.borderBottom { border-bottom: 1px solid #f3f4f6; }
+}
+
+.iconWrapper {
+  width: 40px; height: 40px; background: #eff6ff; color: #3b82f6;
+  border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  svg { width: 20px; height: 20px; }
+}
+
+.content { flex: 1; }
+.action { font-size: 15px; font-weight: 600; color: #111827; margin-bottom: 4px; }
+.details { font-size: 14px; color: #6b7280; }
+
+.timestamp { text-align: right; font-size: 13px; color: #9ca3af; line-height: 1.4; }
