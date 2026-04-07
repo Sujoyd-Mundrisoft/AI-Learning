@@ -1,0 +1,27 @@
+.container { display: flex; flex-direction: column; gap: 24px; }
+
+.header {
+  h1 { font-size: 28px; font-weight: 700; color: #111827; margin: 0 0 8px 0; }
+  p { font-size: 15px; color: #6b7280; margin: 0; }
+}
+
+.accordionContainer { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 0 24px; }
+
+.item { padding: 20px 0; &.borderBottom { border-bottom: 1px solid #f3f4f6; } }
+
+.trigger {
+  width: 100%; display: flex; justify-content: space-between; align-items: center;
+  background: transparent; border: none; padding: 0; cursor: pointer;
+  font-size: 15px; font-weight: 600; color: #111827; text-align: left;
+  &:hover { color: #2563eb; }
+}
+
+.icon {
+  width: 20px; height: 20px; color: #6b7280; transition: transform 0.2s ease;
+  &.expanded { transform: rotate(180deg); }
+}
+
+.content {
+  padding-top: 16px;
+  p { margin: 0; font-size: 14px; color: #4b5563; line-height: 1.5; }
+}

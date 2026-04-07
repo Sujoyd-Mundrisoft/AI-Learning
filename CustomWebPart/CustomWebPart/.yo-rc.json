@@ -1,0 +1,23 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "CustomWebPart",
+    "useGulp": false,
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "CustomWebPart",
+    "componentDescription": "Custom Web Part",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.22.0",
+    "sdksVersions": {},
+    "version": "1.22.2",
+    "libraryName": "custom-web-part",
+    "libraryId": "31be5a83-c921-46bd-b209-9cd1baa5dc95",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionShortDescription": "CustomWebPart description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  }
+}
